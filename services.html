@@ -226,7 +226,97 @@
   .title-box .title { font-weight: 600; letter-spacing: 2px; position: relative; z-index: -1; }
         .title-box span { text-shadow: 0 10px 10px rgba(0, 0, 0, .15); font-weight: 800; color: #640178; }
         .title-box p {font-size: 17px; line-height: 2em; }
+
+
+
+      /* Transparent Good looking button with #004d40; accent */
+       button{
+        /* Transparent Good looking button with #004d40; accent  */
+        background-color: #004d40;
+        border: 2px solid #004d40;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        -ms-transition: 0.5s;
+        }
+        button:hover{
+        background-color: #fff;
+        color: #004d40;
+        border: 2px solid #004d40;
+        
+       }
+
+
+
+
+
+
+
+
+        .title-box .title { font-weight: 600; letter-spacing: 2px; position: relative; z-index: -1; }
+        .title-box span { text-shadow: 0 10px 10px rgba(0, 0, 0, .15); font-weight: 800; color: #640178; }
+        .title-box p {font-size: 17px; line-height: 2em; }
+        .title-box .title::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #640178;
+            z-index: -1;
+        }
+        .title-box .title::before {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #640178;
+            z-index: -1;
+            transition: 0.5s;
+        }
+        .title-box:hover .title::before {
+            width: 100%;
+        }
+        .title-box .title::before {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #640178;
+            z-index: -1;
+            transition: 0.5s;
+        }
+        .title-box:hover .title::before {
+            width: 100%;
+        }
+        .title-box .title::before {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #640178;
+            z-index: -1;
+            transition
+      }
         </style>
+
 
 
 <script>
