@@ -100,7 +100,7 @@
           <a class="nav-link" href="./gallery.html">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="http://blog.shreenidhiayurveda.com/">Blogs</a>
+          <a class="nav-link" href="https://shreenidhiayu.blogspot.com/" target="_blank">Blogs</a>
         </li>
       </ul>
     </div>
@@ -189,6 +189,15 @@
 
 
         <style>
+          
+          #more1{display: none;}
+          #more2{display: none;}
+          #more3{display: none;}
+          #more4{display: none;}
+          #more5{display: none;}
+          #more6{display: none;}
+
+
             .holderCircle { width: 500px; height: 500px; border-radius: 100%; margin: 60px auto; position: relative; }
 
 
@@ -322,8 +331,9 @@ radius = width/2.5;
         <img src="./MediaKulkarni/close-up-of-man-is-heart-attack.jpg" class="card-img-top img-fluid" alt="Responsive image" style="border-radius: 10px;">
         <div class="card-body">
           <h4 class="card-title">Treatment for cancer and chronic kidney,heart disease</h4>
-          <p class="card-text">Our Ayurvedic clinic offers personalized treatment plans for cancer, chronic kidney disease, and heart disease using Ayurvedic therapies like Panchakarma, herbal medicines, and lifestyle recommendations. Our focus is on prevention and improving overall quality of life. We use stress management and detoxification techniques to help patients achieve optimal health.</p>
-          </div>
+          <p class="card-text">Our Ayurvedic clinic offers personalized treatment plans for cancer, chronic kidney disease, and heart disease using Ayurvedic <span id="dots1">...</span><span id="more1"> therapies like Panchakarma, herbal medicines, and lifestyle recommendations. Our focus is on prevention and improving overall quality of life. We use stress management and detoxification techniques to help patients achieve optimal health.</span></p>
+          <button onclick="toggleText(1)" id="myBtn1">Read More</button>
+        </div>
       </div>
     </div>
     <div class="col-md-4 col-sm-6" style="margin-bottom: 1rem;">
@@ -331,8 +341,9 @@ radius = width/2.5;
         <img src="./MediaKulkarni/images (10).jpeg" class="card-img-top img-fluid" alt="Responsive image" style="border-radius: 10px;">
         <div class="card-body">
           <h4 class="card-title">Panchakarma</h4>
-          <p class="card-text">Our Ayurvedic clinic offers Panchakarma treatment, a traditional detoxification therapy that helps eliminate physical toxins and release emotional and mental blockages. This treatment involves personalized cleansing and rejuvenation techniques like oil massages, herbal steam baths, and enemas. Our highly skilled Ayurvedic doctors provide personalized treatment plans using natural remedies like herbal supplements to ensure long-lasting results.</p>
-          </div>
+          <p class="card-text">Our Ayurvedic clinic offers Panchakarma treatment, a traditional detoxification therapy that helps eliminate physical toxins and release emotional and mental blockages. This treatment involves personalized cleansing and rejuvenation techniques like oil <span id="dots2">...</span><span id="more2"> massages, herbal steam baths, and enemas. Our highly skilled Ayurvedic doctors provide personalized treatment plans using natural remedies like herbal supplements to ensure long-lasting results. </span></p>
+          <button onclick="toggleText(2)" id="myBtn2">Read More</button>
+        </div>
       </div>
     </div>
     <div class="col-md-4 col-sm-6" style="margin-bottom: 1rem;">
@@ -340,8 +351,9 @@ radius = width/2.5;
         <img src="./MediaKulkarni/weight-loss-exercise-plan.jpg" class="card-img-top img-fluid" alt="Responsive image" style="border-radius: 10px;">
         <div class="card-body">
           <h4 class="card-title">Weight loss thearpy</h4>
-          <p class="card-text">Our Ayurvedic weight loss therapies are safe, natural, and effective, with personalized treatment plans based on individual body type and imbalances. We offer herbal supplements, customized dietary recommendations, detoxification techniques, and stress management tools to promote healthy weight loss. Our experienced doctors and staff provide compassionate care and support. Contact us for more information on Ayurveda weight loss, natural weight loss, sustainable weight loss, and personalized treatment.</p>
-          </div>
+          <p class="card-text">Our Ayurvedic weight loss therapies are safe, natural, and effective, with personalized treatment plans based on individual body type and imbalances. We offer herbal supplements, <span id="dots3">...</span><span id="more3">customized dietary recommendations, detoxification techniques, and stress management tools to promote healthy weight loss. Our experienced doctors and staff provide compassionate care and support. Contact us for more information on Ayurveda weight loss, natural weight loss, sustainable weight loss, and personalized treatment. </span></p>
+          <button onclick="toggleText(1)" id="myBtn1">Read More</button>
+        </div>
       </div>
     </div>
   </div>
@@ -352,8 +364,10 @@ radius = width/2.5;
         <img src="./MediaKulkarni/239830.jpg" alt="Responsive image" style="border-radius: 10px;">
         <div class="card-body">
           <h4 class="card-title">Spine and joint care</h4>
-          <p class="card-text">Our Ayurvedic clinic offers personalized treatment plans for spine and joint care, utilizing natural remedies like herbal remedies, oil massages, and yoga therapy. Our focus is on balancing the body's energies to alleviate pain and inflammation and improve mobility. Our services provide holistic and natural alternatives to traditional Western medicine. Trust our experienced Ayurvedic practitioners to help you achieve optimal health and well-being.</p>
-           </div>
+          <p class="card-text">Our Ayurvedic clinic offers personalized treatment plans for spine and joint care, utilizing natural remedies like herbal remedies, oil massages, and yoga therapy. <span id="dots4">...</span><span id="more4"> Our focus is on balancing the body's energies to alleviate pain and inflammation and improve mobility. Our services provide holistic and natural alternatives to traditional Western medicine. Trust our experienced Ayurvedic practitioners to help you achieve optimal health and well-being.</span></p>
+          <button onclick="toggleText(4)" id="myBtn4">Read More</button> 
+        </div>
+
       </div>
     </div>
     <div class="col-md-4 col-sm-6" style="margin-bottom: 1rem;">
@@ -361,19 +375,24 @@ radius = width/2.5;
         <img src="./MediaKulkarni/OSE.jpg" class="card-img-top img-fluid" alt="Responsive image" style="border-radius: 10px;">
         <div class="card-body">
           <h4 class="card-title">Fractures, Non-healing wounds, Gangrene</h4>
-          <p class="card-text">Our Ayurvedic clinic offers safe and effective treatments for non-healing fractures, non-healing wounds, and gangrene using herbal supplements, Panchakarma detoxification, and specialized massages. Our experienced doctors conduct thorough consultations to personalize treatment plans.
+          <p class="card-text">Our Ayurvedic clinic offers safe and effective treatments <span id="dots5">...</span><span id="more5"> for non-healing fractures, non-healing wounds, and gangrene using herbal supplements, Panchakarma detoxification, and specialized massages. Our experienced doctors conduct thorough consultations to personalize treatment plans.</span>
 
           </p>
+          <button onclick="toggleText(5)" id="myBtn5">Read More</button>
           </div>
       </div>
     </div>
     <div class="col-md-4 col-sm-6" style="margin-bottom: 1rem;">
       <div class="card" style="border-radius: 10px;">
-        <img src="./MediaKulkarni/weight-loss-exercise-plan.jpg" class="card-img-top img-fluid" alt="Responsive image" style="border-radius: 10px;">
+        <img src="./MediaKulkarni/Ayurvedic-medicines-for-thyroid-treatment.jpg" class="card-img-top img-fluid" alt="Responsive image" style="border-radius: 10px;">
         <div class="card-body">
           <h4 class="card-title">Thyroid care</h4>
-          <p class="card-text">Our Ayurvedic clinic offers a personalized and holistic approach to treating thyroid imbalances through multimodular treatment. We use natural remedies, including herbal supplements and lifestyle modifications, to restore balance and improve overall well-being. Our treatment approach is safe and effective, with no harmful side effects. Contact us today to learn more about our Ayurvedic services for thyroid health.</p>
-           </div>
+          <p class="card-text">Our Ayurvedic clinic offers a personalized and holistic approach to treating thyroid imbalances through multimodular treatment. We use natural remedies, <span id="dots6">...</span><span id="more6"> including herbal supplements and lifestyle modifications, to restore balance and improve overall well-being. Our treatment approach is safe and effective, with no harmful side effects. Contact us today to learn more about our Ayurvedic services for thyroid health.</span></p>
+          <button onclick="toggleText(6)" id="myBtn6">Read More</button>
+        </div>
+
+         
+
       </div>
     </div>
   </div>
@@ -426,5 +445,25 @@ radius = width/2.5;
   </div>
 </footer>
 
+<script>
+function toggleText(cardNum) {
+  var dots = document.getElementById("dots" + cardNum);
+  var moreText = document.getElementById("more" + cardNum);
+  var btnText = document.getElementById("myBtn" + cardNum);
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    moreText.style.display = "none";
+    btnText.innerHTML = "Read More";
+  } else {
+    dots.style.display = "none";
+    moreText.style.display = "inline";
+    btnText.innerHTML = "Read Less";
+  }
+}
+
+
+</script>
+
 </body>
+
 </html>
